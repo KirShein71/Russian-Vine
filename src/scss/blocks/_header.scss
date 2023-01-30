@@ -1,0 +1,43 @@
+.header {
+    padding-top: 25px;
+    background-color: rgb(7, 7, 7);
+    min-height: 80px;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        font-size: 30px;
+        font-weight: 700;
+        color: #ffff;
+    }
+
+    span {
+        color: rgb(233, 28, 28);
+    }
+    &__item {
+        font-weight: 700;
+        font-size: 20px;
+        color: #ffff;
+        cursor: pointer;
+        padding-top: 8px;
+        &:hover {
+            color: rgb(233, 28, 28);
+        }
+    }
+
+    &__cart {
+        width: 3.438vw;
+        height: 2.344vw;
+        background: #da224d;
+        border-radius: 100px;
+    }
+
+    img {
+        margin-top: 5px;
+        margin-left: 14px;
+        width: 45%;
+        cursor: pointer;
+    }
+
+}
