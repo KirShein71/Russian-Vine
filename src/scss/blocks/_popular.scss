@@ -1,0 +1,28 @@
+.popular {
+    &__title {
+        font-size: 25px;
+        font-weight: 700;
+        padding-top: 50px;
+        text-transform: uppercase;
+        color: rgb(0, 0, 0);
+    }
+    &__content {
+        margin-top: 50px;
+    }
+    &__button {
+        width: 160px;
+        height: 60px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background: #da224d;
+        border-radius: 100px;
+        margin: 0 auto;
+        text-transform: uppercase;
+        color: #ffff;
+        font-size: 17px;
+        font-weight: 500;
+    }
+}

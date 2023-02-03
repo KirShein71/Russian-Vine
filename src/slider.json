@@ -1,0 +1,39 @@
+[
+    {
+        "id": "1",
+        "title": "Семь морей (Каберне-Саперави)",
+        "price": "1200",
+        "imageUrl": "./img/popular/sevensea.jpg" 
+    },
+    {
+        "id": "2",
+        "title": "Дзитоев Блауфранкиш",
+        "price": "2800",
+        "imageUrl": "./img/popular/dzitoev.png" 
+    },
+    {
+        "id": "3",
+        "title": "Репин Шенен Блан",
+        "price": "3000",
+        "imageUrl": "./img/popular/repin.jpg" 
+    },
+    {
+        "id": "4",
+        "title": "Гусев Мариновский",
+        "price": "1200",
+        "imageUrl": "./img/popular/gusev.png" 
+    },
+    {
+        "id": "5",
+        "title": "Гунько Мальбек",
+        "price": "1200",
+        "imageUrl": "./img/popular/ankor.jpg" 
+    },
+    {
+        "id": "6",
+        "title": "Анкор Розе",
+        "price": "1200",
+        "imageUrl": "./img/popular/rose.jpg" 
+    }
+    
+]
