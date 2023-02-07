@@ -1,0 +1,73 @@
+.events {
+    margin-top: 100px;
+   
+    position: relative;
+    &__title {
+        font-size: 25px;
+        font-weight: 700;
+        padding-top: 25px;
+        text-transform: uppercase;
+        color: rgb(7, 7, 7);
+    }
+    &__content {
+        margin-top: 50px;
+        margin-bottom: 75px;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__card {
+        width: 270px;
+        height: 350px;
+        position: relative;
+        margin-right: 5px;
+        cursor: pointer;
+      
+        
+        
+    }
+    img {
+        width: 270px;
+        height: 350px;
+        
+        
+        
+        
+    }
+
+    &__text {
+        font-size: 33px;
+        font-weight: 500;
+        color: #E8A236;
+        position: absolute;
+        top: 55%;
+        left: 15%;
+        text-transform: uppercase;
+        
+       }
+
+    &__button {
+        width: 160px;
+        height: 60px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background: #da224d;
+        border-radius: 100px;
+        margin: 0 auto;
+        text-transform: uppercase;
+        color: #ffff;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    &__description {
+        padding: 5px;
+        font-size: 17px;
+        font-weight: 400;
+        color:rgb(7, 7, 7)
+        
+    }
+}

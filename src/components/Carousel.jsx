@@ -8,7 +8,7 @@ function Carousel({show}) {
     const [length, setLength] = React.useState(slider.length)
 
     React.useEffect(()=>{
-        setLength(slider.length)
+        setLength(length)
     }, [slider])
     
     const next = () => {
