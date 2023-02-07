@@ -4,6 +4,7 @@ import CatalogVine from "./components/CatalogVine"
 import Popular from "./components/Popular"
 import Events from "./components/Events"
 import Information from "./components/Information";
+import Footer from "./components/Footer";
 
 import './scss/app.scss'
 
@@ -19,6 +20,7 @@ function App() {
             <Popular/>
             <Events/>
             <Information/>
+            <Footer/>
         </div>
        
     )
