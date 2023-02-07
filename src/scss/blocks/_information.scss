@@ -1,0 +1,56 @@
+.information {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-event {
+        &__title {
+            font-size: 25px;
+            font-weight: 700;
+            padding-top: 25px;
+            text-transform: uppercase;
+            color: rgb(7, 7, 7);
+        }
+        &__image {
+            margin-top: 25px;
+            margin-left: 25px;
+        }
+    }
+
+    &-social {
+        &__title {
+            font-size: 25px;
+            font-weight: 700;
+            padding-top: 25px;
+            text-transform: uppercase;
+            color: rgb(7, 7, 7);
+        }
+        &__content {
+            margin-top: 35px;
+            margin-left: 25px;
+        }
+        &__telegramm, &__vk {
+            display: flex;
+        }
+        &__subtitle {
+            font-size: 30px;
+            font-weight: 500;
+            color: rgb(7, 7, 7);;
+            padding-top: 16px;
+            padding-left: 30px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        &__line {
+            margin-top: 25px;
+            margin-bottom: 25px;
+            width: 300px;
+            height: 2px;
+            background-color: black;
+        }
+    }
+}
