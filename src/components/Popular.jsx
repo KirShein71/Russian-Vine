@@ -5,9 +5,6 @@ import Carousel from "./Carousel";
 
 
 function Popular() {
-
-
-
     return(
         <div className="popular">
             <div className="container">
@@ -15,7 +12,7 @@ function Popular() {
                 <div className="popular__content">
                    <Carousel show={4}/>
                 </div>
-                <Link to="/allwine">
+                <Link to="/catalog">
                     <button className="popular__button">все вина</button>
                 </Link>
             </div>

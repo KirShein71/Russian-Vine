@@ -16,4 +16,9 @@
         grid-column-gap: 1px;
         grid-row-gap: 20px;
     }
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+    }
 }

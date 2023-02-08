@@ -1,0 +1,14 @@
+.sort {
+    display: flex;
+    margin-top: 25px;
+    &__items{
+        display: flex;
+        cursor: pointer;
+    }
+
+    &__word {
+        font-size: 15px;
+        font-weight: 400;
+        color: rgb(7, 7, 7);
+    }
+}
