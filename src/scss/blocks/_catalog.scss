@@ -1,0 +1,19 @@
+.catalog {
+    margin-top: 50px;
+    &__title {
+        font-size: 25px;
+        font-weight: 700;
+        padding-top: 25px;
+        text-transform: uppercase;
+        color: rgb(7, 7, 7);
+    }
+    &__content {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-column-gap: 1px;
+        grid-row-gap: 20px;
+    }
+}

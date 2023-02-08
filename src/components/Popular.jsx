@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Carousel from "./Carousel";
 
 
@@ -14,7 +15,9 @@ function Popular() {
                 <div className="popular__content">
                    <Carousel show={4}/>
                 </div>
-                <button className="popular__button">все вина</button>
+                <Link to="/allwine">
+                    <button className="popular__button">все вина</button>
+                </Link>
             </div>
         </div>
     )
