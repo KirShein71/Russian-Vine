@@ -1,0 +1,29 @@
+.productpreview {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    &__content {
+        display: flex;
+    }
+
+    
+
+    &__information {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    &__title {
+        color: #cacaca;
+        font-size: 35px;
+        font-weight: 400;
+    }
+
+    &__text {
+        font-size: 16px;
+        font-weight: 400;
+        color: rgb(7, 7, 7);
+        padding: 15px 0 15px 15px;
+    
+    }
+}
+

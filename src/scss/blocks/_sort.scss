@@ -1,14 +1,23 @@
 .sort {
     display: flex;
-    margin-top: 25px;
-    &__items{
+    margin-top: 10px;
+
+    ul {
+        display: flex;
+    }
+    
+    li {
         display: flex;
         cursor: pointer;
+        list-style: none;
+        
+       
     }
 
     &__word {
         font-size: 15px;
         font-weight: 400;
         color: rgb(7, 7, 7);
+       
     }
 }
