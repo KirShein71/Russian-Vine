@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import Cardevent from './CardEvent';
 import event from '../event.json'
 
@@ -11,7 +12,9 @@ function Events() {
             <div className='events__content'>
                {event.map((obj)=>(<Cardevent {...obj}/>))}
             </div>
-            <button className='events__button'>подробнее</button>
+            <Link to="/fullevents">
+                <button className='events__button'>подробнее</button>
+            </Link>
         </div>
     </div>
   )

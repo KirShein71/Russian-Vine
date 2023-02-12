@@ -10,9 +10,11 @@ function Header() {
                         <div className="header__title">Русское<span>Вино</span></div>
                     </Link>
                     <Link to="/catalog">
-                    <div className="header__item">Каталог</div>
+                        <div className="header__item">Каталог</div>
                     </Link>
-                    <div className="header__item">Мероприятия</div>
+                    <Link to="/fullevents">
+                        <div className="header__item">Мероприятия</div>
+                    </Link>
                     <Link to="/contact">
                         <div className="header__item">Контакты</div>
                     </Link>

@@ -1,5 +1,6 @@
 import React from "react";
 import CatalogVineCard from "./CatalogVineCard";
+import { Link } from "react-router-dom";
 
 function CatalogVine() {
 
@@ -14,9 +15,11 @@ function CatalogVine() {
     return(
         <div className="catalogvine">
             <div className="container">
+                <Link to="/redwine">
                 <div className="catalogvine__content">
                     {typeVine.map((obj)=>(<CatalogVineCard key={typeVine} {...obj}/>))}
                 </div>
+                </Link>
             </div>
         </div>
     )

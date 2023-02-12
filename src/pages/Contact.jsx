@@ -14,6 +14,7 @@ function Contact() {
                 <a href="@marystufff">@marystufff</a>
             </div>
         </div>
+        
     )
 }
 
