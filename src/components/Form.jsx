@@ -18,12 +18,14 @@ function Form() {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <input type="text" name="user_name" placeholder='Имя' required/>
-      <input type="tell" name="user_telephone" placeholder='Телефон'required/>
-      <input name="message" type="text" placeholder='Мероприятие для заказа' required/>
-      <input className='input__button' type="submit" value="Отправить" />
-    </form>
+    <div className='form'>
+        <form  ref={form} onSubmit={sendEmail}>
+        <input type="text" name="user_name" placeholder='Имя' required/>
+        <input type="tell" name="user_telephone" placeholder='Телефон'required/>
+        <input name="message" type="text" placeholder='Мероприятие для заказа' required/>
+        <input className='input__button' type="submit" value="Отправить" />
+        </form>
+    </div>
   );
 };
 

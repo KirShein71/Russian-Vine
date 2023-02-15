@@ -1,9 +1,13 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import Cardevent from './CardEvent';
 import event from '../event.json'
+import Form from './Form';
 
-function Events() {
+function Events({onClickButton}) {
+    const [openModul, setOpenModul] = React.useState(false)
+    onClickButton = () => {
+        setOpenModul(true)
+    }
 
   return (
     <div className='events'>
@@ -12,9 +16,15 @@ function Events() {
             <div className='events__content'>
                {event.map((obj)=>(<Cardevent {...obj}/>))}
             </div>
-            <Link to="/fullevents">
-                <button className='events__button'>подробнее</button>
-            </Link>
+                <button onClick={onClickButton} className='events__button'>Оставить заявку</button>
+                {openModul && (
+                <div className="overlay">
+                    <div onClick={()=>setOpenModul(false)} className="closed">
+                        <img src="../img/closed.png" alt="closed"/>
+                    </div>
+                    <Form />
+                </div>
+                )}
         </div>
     </div>
   )

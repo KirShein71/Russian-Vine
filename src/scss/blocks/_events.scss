@@ -18,17 +18,18 @@
 
     &__card {
         width: 270px;
-        height: 350px;
+        height: 300px;
         position: relative;
         margin-right: 5px;
         cursor: pointer;
+       
       
         
         
     }
-    img {
+    &__img {
         width: 270px;
-        height: 350px;
+        height: 300px;
         
         
         
@@ -59,7 +60,7 @@
         margin: 0 auto;
         text-transform: uppercase;
         color: #ffff;
-        font-size: 17px;
+        font-size: 15px;
         font-weight: 500;
     }
 
@@ -69,5 +70,14 @@
         font-weight: 400;
         color:rgb(7, 7, 7)
         
+    }
+}
+
+.closed {
+    img {
+        position: absolute;
+        cursor: pointer;
+        top: 150px;
+        left: 860px;
     }
 }

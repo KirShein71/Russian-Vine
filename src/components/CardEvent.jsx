@@ -16,9 +16,13 @@ function Cardevent({imgUrl, title, description}) {
     return(
         <div onMouseOver={HadleMouseOver} onMouseOut={HadleMouseOut} className='events__card'>
             {guidance && (
-            <><div className='events__img'>
-                    <img src={imgUrl} alt="foto__event"/>
-                </div><div className='events__text'>{title}</div></>)}
+            <>
+                <div className='events__img'>
+                    <img width={270} height={300} src={imgUrl} alt="foto__event"/>
+                </div>
+                <div className='events__text'>{title}</div>
+            </>
+            )}
             {isHovering && (
             <div className="events__description">{description}</div>)}
         </div>

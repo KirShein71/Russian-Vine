@@ -18,9 +18,9 @@ function Header() {
                     <Link to="/contact">
                         <div className="header__item">Контакты</div>
                     </Link>
-                    <div className="header__cart">
-                        <img src="./img/cart.svg" alt="cart__icon"/>
-                    </div>
+                    <Link to="/reviews">
+                        <div className="header__item">Отзывы</div>
+                    </Link>
                 </div>
             </div>
         </div>

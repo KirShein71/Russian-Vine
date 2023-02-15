@@ -15,7 +15,7 @@ function CatalogVine() {
     return(
         <div className="catalogvine">
             <div className="container">
-                <Link to="/redwine">
+                <Link to="/catalog">
                 <div className="catalogvine__content">
                     {typeVine.map((obj)=>(<CatalogVineCard key={typeVine} {...obj}/>))}
                 </div>

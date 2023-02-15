@@ -1,4 +1,5 @@
-form {
+.form {
+    form {
     position: absolute;
     width: 277px;
     height: 290px;
@@ -7,7 +8,6 @@ form {
     top: 200px;
     left: 580px;
 }
-
 input {
     width: 197px;
     height: 22px;
@@ -37,3 +37,5 @@ input {
     font-weight: 500;
 }
 ::-webkit-input-placeholder { color: #ffff; }
+}
+
