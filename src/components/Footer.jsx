@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
     return(
@@ -12,12 +13,20 @@ function Footer() {
                         </div>
                     </div>
                     <div className="footer__center">
-                        <div className="footer__items">Вино</div>
+                        <Link to="/catalog">
+                            <div className="footer__items">Вино</div>
+                        </Link>
+                        <Link to="/fullevents">
                         <div className="footer__items">Мепрориятия</div>
+                        </Link>
                     </div>
                     <div className="footer__center">
-                        <div className="footer__items">Контакты</div>
+                        <Link to="/contact">
+                            <div className="footer__items">Контакты</div>
+                        </Link>
+                        <Link to="/reviews">
                         <div className="footer__items">Отзывы</div>
+                        </Link>
                     </div>
                     <div className="footer__left">
                         <div className="footer__subtitle">Мы в социальных сетях</div>

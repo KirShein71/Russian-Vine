@@ -2,13 +2,16 @@ import React from "react";
 import { YMaps, Map, Placemark } from '@pbe/react-yandex-maps';
 
 function Ymap() {
-    const mapState = {center: [59.94, 30.28], zoom: 10 }
+    const mapState = {center: [59.9414, 30.2767], zoom: 16 }
     return(
         <YMaps>
             <Map defaultState={mapState}>
-                <Placemark geometry={{coordinates:[59.941344, 30.276773]}}
+                <Placemark geometry={{
+                type: "Point",
+                coordinates: [59.941461, 30.276797]
+            }}
                     properties={{
-                        hintContent: '../img/map.png',
+                        iconContent: 'Русское вино',
                       }}
                 />
             </Map>

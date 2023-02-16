@@ -23,7 +23,7 @@ function Sort() {
                         onClick={() => onClickListItem(obj)}
                         className={sort.sortProperty === obj.sortProperty ? 'active' : ''}>
                         <div className="sort__icon">
-                            <img src={obj.image}/>
+                            <img src={obj.image} alt="icon"/>
                         </div>
                         <div className="sort__word">{obj.name}</div>
                     </li>

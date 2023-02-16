@@ -3,6 +3,7 @@ import Cardevent from './CardEvent';
 import event from '../event.json'
 import Form from './Form';
 
+
 function Events({onClickButton}) {
     const [openModul, setOpenModul] = React.useState(false)
     onClickButton = () => {
@@ -20,9 +21,9 @@ function Events({onClickButton}) {
                 {openModul && (
                 <div className="overlay">
                     <div onClick={()=>setOpenModul(false)} className="closed">
-                        <img src="../img/closed.png" alt="closed"/>
+                        <img src="img/closed.png" alt="closed"/>
                     </div>
-                    <Form />
+                    <Form/>
                 </div>
                 )}
         </div>

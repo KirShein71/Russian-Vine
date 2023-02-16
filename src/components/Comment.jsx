@@ -30,7 +30,7 @@ function Comment({comment,
   return (
     <div key={comment.id} className="comment">
       <div className="comment-image-container">
-        <img src="./img/user-icon.png" />
+        <img src="./img/user-icon.png" alt="icon_user"/>
       </div>
       <div className="comment-right-part">
         <div className="comment-content">

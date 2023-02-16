@@ -1,10 +1,31 @@
 .contact {
     margin-top: 50px;
+    margin-bottom: 50px;
     &__title {
         font-size: 25px;
         font-weight: 700;
         padding-top: 25px;
+        padding-bottom: 25px;
         text-transform: uppercase;
         color: rgb(7, 7, 7);
+    }
+    &__bottom {
+        margin-top: 80px;
+    }
+
+    &__subtitle {
+        font-size: 20px;
+        font-weight: 600;
+        color: rgb(7, 7, 7);
+        padding: 10px 0 5px 0;
+    }
+    &__address {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .ymaps-2-1-79-inner-panes {
+        overflow: hidden;
+        width: 450px;
+        height: 300px;
     }
 }

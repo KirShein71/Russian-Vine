@@ -10,6 +10,7 @@ import Reviews from "./pages/Reviews";
 import Footer from "./components/Footer";
 
 import './scss/app.scss'
+import ThankYouPage from "./components/ThankYouPage";
 
 
 
@@ -24,6 +25,7 @@ function App() {
                 <Route path="/preview/:id" element={<ProductPreview/>}/>
                 <Route path="/fullevents" element={<FullEvents/>}/>
                 <Route path="/reviews" element={<Reviews currentUserId="1"/>}/>
+                <Route path="/thankyou" element={<ThankYouPage/>}/>
             </Routes>
             <Footer/>
         </div>

@@ -4,7 +4,11 @@ import Carousel from "./Carousel";
 
 
 
+
+
 function Popular() {
+    
+
     return(
         <div className="popular">
             <div className="container">
