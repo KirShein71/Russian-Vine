@@ -1,0 +1,33 @@
+.root { 
+    li {
+        display: inline-block;
+        a {
+            padding: 5px;
+            border: 1px solid red;
+            border-radius: 30px;
+            width: 30px;
+            height: 30px;
+            margin-right: 15px;
+            cursor: pointer;
+            text-align: center;
+            display: inline-block;
+            
+            
+            &:hover {
+                background-color: red;
+                color: #fff;
+            }
+        }
+        
+    }
+    
+        .selected {
+            a {
+                background-color: red;
+                color: #fff;
+            }
+        }
+    
+}
+
+
