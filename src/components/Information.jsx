@@ -8,7 +8,7 @@ function Information() {
                     <div className="information-event">
                         <div className="information-event__title">События</div>
                         <div className="information-event__image">
-                            <img width={500} height={300} src="./img/qwiz1102.jpg" alt="img__event"/>
+                            <img  src="./img/qwiz1102.jpg" alt="img__event"/>
                         </div>
                     </div>
                     <div className="information-social">

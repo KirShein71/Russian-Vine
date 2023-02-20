@@ -1,19 +1,36 @@
 .events {
     margin-top: 100px;
-   
     position: relative;
+    @media (max-width: 991px) {
+        margin-top: 50px;
+    }
+    @media (max-width: 575px) {
+        margin-top: 10px;
+    }
     &__title {
         font-size: 25px;
         font-weight: 700;
         padding-top: 25px;
         text-transform: uppercase;
         color: rgb(7, 7, 7);
+        @media (max-width: 1024px) {
+            padding-left: 30px;
+        }
+        @media (max-width: 575px) {
+            font-size: 16px;
+        }
     }
     &__content {
         margin-top: 50px;
         margin-bottom: 75px;
         display: flex;
         justify-content: center;
+        @media (max-width:991px) {
+            margin-bottom: 35px;
+        }@media (max-width:991px) {
+            margin-bottom: 20px;
+            margin-top: 18px;
+        }
     }
 
     &__card {
@@ -21,19 +38,21 @@
         height: 300px;
         position: relative;
         margin-right: 5px;
-        cursor: pointer;
-       
-      
-        
-        
+        cursor: pointer;  
+        @media (max-width: 991px) {
+            width: 230px;
+            height: 256px;
+        }
+        @media (max-width: 575px) {
+            width: 120px;
+            height: 133px;
+        }
     }
     &__img {
-        width: 270px;
-        height: 300px;
-        
-        
-        
-        
+        img {
+        width: 100%;
+        height: 100%;
+        }
     }
 
     &__text {
@@ -44,9 +63,23 @@
         top: 55%;
         left: 15%;
         text-transform: uppercase;
-        
-       }
+        @media (max-width: 991px) {
+            font-size: 26px;
+        }
+        @media (max-width: 575px) {
+            font-size: 16px;
+        }
+    }
 
+    &__description {
+        padding: 5px;
+        font-size: 17px;
+        font-weight: 400;
+        color:rgb(7, 7, 7);
+        @media (max-width: 991px) {
+            display: none;
+        }  
+    }
     &__button {
         width: 160px;
         height: 60px;
@@ -62,14 +95,15 @@
         color: #ffff;
         font-size: 15px;
         font-weight: 500;
-    }
-
-    &__description {
-        padding: 5px;
-        font-size: 17px;
-        font-weight: 400;
-        color:rgb(7, 7, 7)
-        
+        &:hover {
+            background: black;
+            color: #da224d;
+        }
+        @media (max-width: 575px) {
+            width: 110px;
+            height: 35px;
+            font-size: 10px;
+        }
     }
 }
 

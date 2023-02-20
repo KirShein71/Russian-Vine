@@ -1,14 +1,23 @@
 .popular {
-    
     &__title {
         font-size: 25px;
         font-weight: 700;
         padding-top: 50px;
         text-transform: uppercase;
         color: rgb(0, 0, 0);
+        @media (max-width: 1024px) {
+            padding-left: 30px;
+        }
+        @media (max-width: 575px) {
+            margin-top: 10px;
+            font-size: 17px;
+        }
     }
     &__content {
         margin-top: 50px;
+        @media (max-width: 575px) {
+            margin-top: 17px;
+        }
     }
     &__button {
         width: 160px;
@@ -25,5 +34,9 @@
         color: #ffff;
         font-size: 17px;
         font-weight: 500;
+        &:hover {
+            background: black;
+            color: #da224d;
+        }
     }
 }

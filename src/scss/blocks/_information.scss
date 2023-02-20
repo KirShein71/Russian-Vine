@@ -1,9 +1,23 @@
 .information {
     margin-top: 100px;
     margin-bottom: 100px;
+    @media (max-width: 991px) {
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    @media (max-width: 575px) {
+        margin-top: 15px;
+    }
     &__content {
         display: flex;
         justify-content: space-between;
+        @media (max-width: 1200px) {
+            justify-content: space-around;
+        }
+        @media (max-width: 575px) {
+            display: contents;
+        }
+        
     }
 
     &-event {
@@ -13,14 +27,31 @@
             padding-top: 25px;
             text-transform: uppercase;
             color: rgb(7, 7, 7);
+            @media (max-width: 575px) {
+                font-size: 17px;
+                padding-left: 25px;
+            }
         }
+    
         &__image {
             margin-top: 25px;
             margin-left: 25px;
+            img {
+                display: block;
+                width: 100%;
+                @media (max-width: 575px) {
+                    width: 60%;
+                    margin-left: 60px;
+                }
+            }
+            
         }
     }
 
     &-social {
+        @media (max-width: 991px) {
+            display: none;
+        }
         &__title {
             font-size: 25px;
             font-weight: 700;
@@ -34,6 +65,9 @@
         }
         &__telegramm, &__vk {
             display: flex;
+            img {
+                width: 25%;
+            }
         }
         &__subtitle {
             font-size: 30px;
@@ -43,6 +77,9 @@
             padding-left: 30px;
             text-decoration: none;
             cursor: pointer;
+            @media (max-width: 991px) {
+                font-size: 25px;
+            }
         }
 
         &__line {

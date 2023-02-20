@@ -1,11 +1,21 @@
 .popularcard {
     width: 260px;
-    height: 350px;
+    height: 400px;
     padding-top: 45px;
-
-    img {
-        display: block;
-        margin: 0 auto;
+    @media (max-width: 575px) {
+        width: 188px;
+        height: 285px;
+        padding-top: 15px;
+    }
+    &__image {
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 30%;
+            @media (max-width: 575px) {
+                height: 30%;
+            }
+        }
     }
 
     &__title {
@@ -14,6 +24,11 @@
         color: rgb(0, 0, 0);
         padding-top: 65px;
         text-align: center;
+        @media (max-width: 575px) {
+            font-size: 11px;
+            padding-top: 16px;
+        }
+    
     }
 
    
@@ -25,6 +40,10 @@
         font-weight: 600;
         color: rgb(0, 0, 0);
         padding-top: 10px;
+        @media (max-width: 575px) {
+            font-size: 13px;
+            padding-top: 5px;
+        }
     }
 
    

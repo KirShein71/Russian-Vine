@@ -4,7 +4,9 @@ function PopularCard({title, price, imageUrl}) {
     return(
         <div className="popularcard">
             <div className="popularcard__content">
-                <img height={200} src={imageUrl} alt="img__wine"/>
+                <div className="popularcard__image">
+                    <img height={272} width={70} src={imageUrl} alt="img__wine"/>
+                </div>
                 <div className="popularcard__title">{title}</div>
                 <div className="popularcard__price">{price} ₽</div>
             </div>
