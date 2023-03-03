@@ -12,6 +12,7 @@
             margin-top: 10px;
             font-size: 17px;
         }
+        
     }
     &__content {
         margin-top: 50px;
@@ -37,6 +38,11 @@
         &:hover {
             background: black;
             color: #da224d;
+        }
+        @media (max-width: 575px) {
+            width: 115px;
+            height: 40px;
+            font-size: 15px;
         }
     }
 }

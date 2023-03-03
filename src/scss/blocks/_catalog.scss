@@ -6,6 +6,9 @@
         padding-top: 25px;
         text-transform: uppercase;
         color: rgb(7, 7, 7);
+        @media (max-width: 1024px) {
+            padding-left: 43px;;
+        }
     }
     &__content {
         margin-top: 50px;
@@ -15,10 +18,26 @@
         grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 1px;
         grid-row-gap: 20px;
+        @media (max-width: 1024px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        @media (max-width: 575px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @media (max-width: 480px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
     }
 
     &__top {
         display: flex;
         justify-content: space-between;
+        @media (max-width: 1024px) {
+            justify-content: center;
+        }
+        @media (max-width: 991px) {
+            display: contents;
+        }
     }
+
 }

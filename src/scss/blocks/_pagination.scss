@@ -11,6 +11,10 @@
             cursor: pointer;
             text-align: center;
             display: inline-block;
+            @media (max-width: 480px) {
+                width: 25px;
+                height: 25px;
+            }
             
             
             &:hover {

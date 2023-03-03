@@ -1,4 +1,8 @@
 .categories {
+    @media (max-width: 575px) {
+            width: 100%;
+            overflow: auto;
+    }
     ul {
       display: flex;
   

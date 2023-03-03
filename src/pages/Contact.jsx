@@ -14,7 +14,7 @@ function Contact() {
                     <div className="contact__subtitle">Звоните</div>
                     <a className="contact__telephone" href="tel:+7952381312">8-952-381-13-12</a>
                     <div className="contact__subtitle">Или пишите</div>
-                    <a href="@marystufff">@marystufff</a>
+                    <a className="contact__telegramm" href="@marystufff">@marystufff</a>
                 </div>
             </div>
         </div>

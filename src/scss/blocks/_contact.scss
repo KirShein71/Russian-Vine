@@ -1,13 +1,19 @@
 .contact {
     margin-top: 50px;
     margin-bottom: 50px;
+    @media (max-width: 1200px) {
+        display: flex;
+    }
     &__title {
         font-size: 25px;
         font-weight: 700;
-        padding-top: 25px;
         padding-bottom: 25px;
         text-transform: uppercase;
         color: rgb(7, 7, 7);
+        @media (max-width: 320px) {
+            font-size: 20px;
+            padding-left: 15px;
+        }
     }
     &__bottom {
         margin-top: 80px;
@@ -18,14 +24,39 @@
         font-weight: 600;
         color: rgb(7, 7, 7);
         padding: 10px 0 5px 0;
+        @media (max-width: 320px) {
+            font-size: 18px;
+            padding-left: 15px;
+        }
     }
     &__address {
         font-size: 17px;
         font-weight: 400;
+        @media (max-width: 320px) {
+            font-size: 15px;
+            padding-left: 17px;
+        }
+    }
+    &__telephone {
+        @media (max-width: 320px) {
+           padding-left: 17px;
+        }
+    }
+    &__telegramm {
+        @media (max-width: 320px) {
+            padding-left: 17px;
+        }
     }
     .ymaps-2-1-79-inner-panes {
         overflow: hidden;
         width: 450px;
         height: 300px;
+        @media (max-width: 480px) {
+            width: 400px;
+        }
+        @media (max-width: 320px) {
+            width: 300px;
+            height: 240px;
+        }
     }
 }

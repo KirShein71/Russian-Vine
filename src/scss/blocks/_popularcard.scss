@@ -2,28 +2,43 @@
     width: 260px;
     height: 400px;
     padding-top: 45px;
+    @media (max-width: 1024px) {
+        width: 250px;
+    }
+    @media (max-width: 991px) {
+        width: 240px;
+    }
     @media (max-width: 575px) {
         width: 188px;
-        height: 285px;
+        height: 170px;
         padding-top: 15px;
+    }
+    @media (max-width: 480px) {
+        width: 150px;
+        height: 136px;
+       
     }
     &__image {
         img {
             display: block;
             margin: 0 auto;
-            width: 30%;
             @media (max-width: 575px) {
+                width: 15%;
                 height: 30%;
+                
             }
         }
     }
 
     &__title {
-        font-size: 14px;
+        font-size: 15px;
         font-weight: 600;
         color: rgb(0, 0, 0);
         padding-top: 65px;
         text-align: center;
+        @media (max-width: 991px) {
+            font-size: 14px;
+        }
         @media (max-width: 575px) {
             font-size: 11px;
             padding-top: 16px;
@@ -35,11 +50,10 @@
 
     &__price {
         float: right;
-        margin-top: 15px;
-        font-size: 14px;
+        font-size: 17px;
         font-weight: 600;
         color: rgb(0, 0, 0);
-        padding-top: 10px;
+        padding-top: 25px;
         @media (max-width: 575px) {
             font-size: 13px;
             padding-top: 5px;
