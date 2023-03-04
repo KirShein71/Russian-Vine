@@ -1,5 +1,8 @@
 .carousel {
     margin-bottom: 70px;
+    @media (max-width: 320px) {
+        margin-bottom: 20px;
+    }
     &__container {
         width: 100%;
         display: flex;
@@ -46,6 +49,10 @@
     background-color: white;
     border: 1px solid #ddd;
     cursor: pointer;
+    @media (max-width: 320px) {
+        width: 25px;
+        height: 25px;
+    }
 }
 
 .left-arrow {
@@ -54,5 +61,8 @@
 
 .right-arrow {
     right: 24px;
+    @media (max-width: 320px) {
+        right: 66px;
 }
 
+}

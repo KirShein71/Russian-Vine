@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header"
+import SideBar from "./components/SideBar";
 import Home from "./pages/Home"
 import Contact from "./pages/Contact";
 import Catalog from "./pages/Catalog";
@@ -18,6 +19,7 @@ function App() {
     return (
         <div className="wrapper">
             <Header/>
+            <SideBar  pageWrapId={"page-wrap"} outerContainerId={"App"} />
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/contact" element={<Contact/>}/>

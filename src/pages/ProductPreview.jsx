@@ -20,7 +20,6 @@ function ProductPreview() {
         fetchWine()
     },[]);
 
-   
     return (
         <div className="productpreview">
             <div className="container">

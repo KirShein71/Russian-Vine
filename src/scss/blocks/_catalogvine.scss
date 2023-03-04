@@ -1,5 +1,8 @@
 .catalogvine {
     background-color: rgb(7, 7, 7);
+    @media (max-width: 320px) {
+        display: none;
+    }
     &__content {
         display: flex;
         @media (max-width: 1200px) {

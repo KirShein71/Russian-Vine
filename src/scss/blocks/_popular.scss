@@ -12,6 +12,9 @@
             margin-top: 10px;
             font-size: 17px;
         }
+        @media (max-width: 320px) {
+            font-size: 14px;
+        }
         
     }
     &__content {
@@ -43,6 +46,11 @@
             width: 115px;
             height: 40px;
             font-size: 15px;
+        }
+        @media (max-width: 320px) {
+            width: 71px;
+            height: 28px;
+            font-size: 10px;
         }
     }
 }

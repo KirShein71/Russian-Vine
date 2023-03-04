@@ -15,11 +15,11 @@ function CatalogVine() {
     return(
         <div className="catalogvine">
             <div className="container">
-                {/* <Link to="/catalog"> */}
+                <Link to="/catalog">
                 <div className="catalogvine__content">
                     {typeVine.map((obj)=>(<CatalogVineCard key={typeVine} {...obj}/>))}
                 </div>
-                {/* </Link> */}
+                </Link>
             </div>
         </div>
     )
