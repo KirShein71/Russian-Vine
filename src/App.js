@@ -19,7 +19,10 @@ function App() {
     return (
         <div className="wrapper">
             <Header/>
-            <SideBar  pageWrapId={"page-wrap"} outerContainerId={"App"} />
+            <SideBar  
+            pageWrapId={"page-wrap"} 
+            outerContainerId={"App"} 
+            />
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/contact" element={<Contact/>}/>

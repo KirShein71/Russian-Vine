@@ -12,6 +12,10 @@
     @media (max-width: 991px) {
         height: 115px;
     }
+    @media (max-width: 768px) {
+        width: 130px;
+        height: 90px;
+    }
     @media (max-width: 575px) {
         width: 100px;
         height: 70px;
@@ -50,6 +54,10 @@
         }
         @media (max-width: 991px) {
             top: 115px;
+        }
+        @media (max-width: 768px) {
+            width: 130px;
+            font-size: 21px;
         }
         @media (max-width: 575px) {
             width: 100px;

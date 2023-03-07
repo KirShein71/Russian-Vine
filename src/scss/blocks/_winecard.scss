@@ -9,10 +9,16 @@
     @media (max-width: 1200px) {
         width: 230px;
     }
+    @media (max-width: 768px) {
+        width: 175px;
+    }
+    @media (max-width: 575px) {
+        width: 230px;
+    }
     @media (max-width: 480px) {
         width: 175px;
     }
-    @media (max-width: 320px) {
+    @media (max-width: 420px) {
         width: 230px;
     }
 
