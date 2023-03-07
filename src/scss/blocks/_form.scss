@@ -6,8 +6,44 @@
     border: 3px solid #ffff;
     padding: 75px 15px 15px 25px;
     top: 200px;
-    left: 580px;
+    left: 700px;
+    @media (max-width: 1200px) {
+        left: 440px;
+        top: 60px;
+        
+    }
+    @media (max-width: 1024px) {
+        top: 72px;
+        left: 350px;
+        height: 240px;
+    }
+    @media (max-width: 991px) {
+        height: 220px;
+        top: 60px;
+    }
+    @media (max-width: 768px) {
+        left: 240px;
+    }
+    @media (max-width: 575px) {
+        width: 240px;
+        height: 190px;
+        left: 130px;
+    }
+    @media (max-width: 480px) {
+        left: 100px;
+        width: 200px;
+        height: 160px;
+        padding-top: 30px;
+    }
+    @media (max-width: 320px) {
+        left: 40px;
+        height: 130px;
+    }
+    
+    
 }
+
+
 input {
     width: 197px;
     height: 22px;
@@ -35,6 +71,15 @@ input {
     color: #ffff;
     font-size: 15px;
     font-weight: 500;
+    @media (max-width: 575px) {
+        width: 130px;
+        height: 40px;
+    }
+    @media (max-width: 480px) {
+        width: 100px;
+        height: 30px;
+        font-size: 11px;
+    }
 }
 ::-webkit-input-placeholder { color: #ffff; }
 }

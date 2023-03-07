@@ -104,6 +104,34 @@
         position: absolute;
         cursor: pointer;
         top: 150px;
-        left: 860px;
+        left: 990px;
+        @media (max-width: 1200px) {
+            top: 13px;
+            left: 720px;
+        }
+        @media (max-width: 1024px) {
+            top: 22px;
+            left: 630px
+        }
+        @media (max-width: 991px) {
+            top: 12px;
+        }
+        @media (max-width: 768px) {
+            left: 520px;
+            top: 11px;
+        }
+        @media (max-width: 575px) {
+            left: 374px;
+        }
+        @media (max-width: 480px) {
+            left: 303px;
+        }
+        @media (max-width: 320px) {
+            
+            left: 240px;
+            top: 13px;
+        }
+
+        
     }
 }

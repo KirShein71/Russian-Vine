@@ -1,18 +1,79 @@
 .ageconfirm {
     position: absolute;
-    width: 277px;
+    width: 650px;
     max-height: 100%;
     padding: 25px 15px;
     background-color: #ffff;
     border-radius: 10px;
-    border: 3px solid red;
-    top: 250px;
-    left: 600px;
-    &__header {
-        text-align: center;
-        font-size: 35px;
-        font-weight: 600;
-        color: rgb(7, 7, 7);
+    top: 35%;
+    left: 30%;
+    @media(max-width: 1200px){
+        left: 24%;
+        top: 70%
+    }
+    @media(max-width: 1024px){
+        width: 500px;
+        left: 24%;
+        top: 70%
+    }
+    @media(max-width: 991px){
+        top: 47%;
+    }
+    @media(max-width: 768px){
+        width: 380px;
+        left: 26%;
+    }
+    @media (max-width: 575px){
+        width: 300px;
+        top: 60%;
+        left: 21%;
+    }
+    @media (max-width: 480px){
+        width: 200px;
+        top: 45%;
+        left: 25%;
+    }
+    @media (max-width: 320px){
+        top: 20%;
+        left: 13%;
+    }
+
+   
+    &-header {
+        display: flex;
+        justify-content: space-around;
+        @media(max-width: 768px){
+            display: contents;
+        }
+        &__text {
+            font-size: 17px;
+            padding-top: 15px;
+            color: red;
+            @media (max-width: 768px){
+                text-align: center;
+            }
+            @media (max-width: 575px){
+                font-size: 14px;
+            }
+            @media (max-width: 480px){
+                padding-top: 5px;
+                font-size: 10px;
+            }
+        }
+        &__icon {
+            img {
+                @media (max-width: 768px){
+                    display: block;
+                    margin: 0 auto;
+                }
+                @media (max-width: 768px){
+                    width: 40%;
+                }
+                @media (max-width: 480px){
+                    width: 30%;
+                }
+            }
+        }
     }
 
     &__description {
@@ -21,6 +82,16 @@
         padding-top: 15px;
         padding-bottom: 15px;
         color: rgb(7, 7, 7);
+        @media (max-width: 768px){
+            text-align: center;
+        }
+        @media (max-width: 575px){
+            font-size: 14px;
+        }
+        @media (max-width: 480px){
+            padding-top: 10px;
+            font-size: 11px;
+        }
     }
     &__button {
         width: 260px;
@@ -37,6 +108,11 @@
         color: #ffff;
         font-size: 17px;
         font-weight: 500;
+        @media (max-width: 480px){
+            width: 150px;
+            height: 30px;
+            font-size: 10px;
+        }
         &:hover {
             background: red;
         }
