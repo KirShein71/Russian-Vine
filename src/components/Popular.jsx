@@ -14,7 +14,7 @@ function Popular() {
             <div className="container">
                 <h3 className="popular__title">Популярное</h3>
                 <div className="popular__content">
-                   <Carousel show={3}/>
+                   <Carousel show={3} infiniteLoop={true}/>
                 </div>
                 <Link to="/catalog">
                     <button className="popular__button">все вина</button>

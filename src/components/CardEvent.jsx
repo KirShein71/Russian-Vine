@@ -18,7 +18,7 @@ function Cardevent({imgUrl, title, description}) {
             {guidance && (
             <>
                 <div className='events__img'>
-                    <img width={270} height={300} src={imgUrl} alt="foto__event"/>
+                    <img src={imgUrl} alt="foto__event"/>
                 </div>
                 <div className='events__text'>{title}</div>
             </>
