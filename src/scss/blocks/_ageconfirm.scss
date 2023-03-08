@@ -9,23 +9,24 @@
     left: 30%;
     @media(max-width: 1200px){
         left: 24%;
-        top: 70%
+        top: 40%
     }
     @media(max-width: 1024px){
         width: 500px;
         left: 24%;
-        top: 70%
+        top: 35%
     }
     @media(max-width: 991px){
-        top: 47%;
+        top: 30%;
     }
     @media(max-width: 768px){
         width: 380px;
         left: 26%;
+        top: 18%;
     }
     @media (max-width: 575px){
         width: 300px;
-        top: 60%;
+        top: 20%;
         left: 21%;
     }
     @media (max-width: 480px){
@@ -35,6 +36,9 @@
     }
     @media (max-width: 420px){
         top: 20%;
+        left: 22%;
+    }
+    @media (max-width: 320px) {
         left: 13%;
     }
 

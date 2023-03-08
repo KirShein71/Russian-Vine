@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 
 function Events({onClickButton}) {
-    const [openModul, setOpenModul] = React.useState(false)
+    const [openModul, setOpenModul] = React.useState(true)
     onClickButton = () => {
         setOpenModul(true)
     }

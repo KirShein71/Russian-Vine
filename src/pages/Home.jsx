@@ -7,13 +7,14 @@ import AgeConfirm from "../components/AgeConfirm";
 
 function Home({onClosedAgePopup}) {
     const [agePopUp, setAgePopUp] = React.useState(false)
-        React.useEffect(()=>{
-            let pop_status = localStorage.getItem('pop_status');
-            if(!pop_status){
-                setAgePopUp(true);
-                localStorage.setItem('pop_status',1);
-            }
-        },[])
+    React.useEffect(()=>{
+        let pop_status = localStorage.getItem('pop_status');
+        if(!pop_status){
+            setAgePopUp(true);
+            localStorage.setItem('pop_status',1);
+        }
+    },[])
+        
 
   onClosedAgePopup = () => {
         setAgePopUp(false)
