@@ -14,7 +14,7 @@ function Home({onClosedAgePopup}) {
                 setAgePopUp(true);
                 localStorage.setItem('pop_status',1);
             }
-        }, 2000)  
+        }, 1000)  
     },[])
         
 

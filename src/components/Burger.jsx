@@ -36,16 +36,16 @@ class Burger extends React.Component {
             onStateChange={(state) => this.handleStateChange(state)}
           >
             <Link to="/catalog">
-            <a onClick={() => this.closeMenu()}>Каталог</a>
+            <div className="bm-item" onClick={() => this.closeMenu()}>Каталог</div>
             </Link>
             <Link to="fullevents">
-            <a onClick={() => this.closeMenu()}>Мероприятия</a>
+            <div className="bm-item"  onClick={() => this.closeMenu()}>Мероприятия</div>
             </Link>
             <Link to="/contact">
-            <a onClick={() => this.closeMenu()}>Контакты</a>
+            < div className="bm-item"onClick={() => this.closeMenu()}>Контакты</div>
             </Link>
             <Link to="/reviews">
-            <a onClick={() => this.closeMenu()}>Отзывы</a>
+            <div className="bm-item" onClick={() => this.closeMenu()}>Отзывы</div>
             </Link>
           </Menu>
           

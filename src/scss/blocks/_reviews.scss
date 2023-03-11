@@ -2,7 +2,7 @@
     margin-top: 20px;
   }
   
-  .comments-title {
+  .comments__title {
     font-size: 30px;
     margin-bottom: 20px;
     @media (max-width: 1024px) {
@@ -17,18 +17,18 @@
     }
   }
   
-  .comments-container {
+  .comments__container {
     margin-top: 40px;
     @media (max-width: 1024px) {
         margin-left: 15px;
     }
   }
   
-  .comment-form-title {
+  .commentform__title {
     font-size: 22px;
   }
   
-  .comment-form-textarea {
+  .commentform__textarea {
     width: 100%;
     height: 80px;
     margin-bottom: 8px;
@@ -43,7 +43,7 @@
     }
   }
   
-  .comment-form-button {
+  .commentform__button {
     font-size: 16px;
     padding: 8px 16px;
     background: rgb(59, 130, 246);
@@ -58,17 +58,17 @@
   }
 
   
-  .comment-form-button:hover:enabled {
+  .commentform__button:hover:enabled {
     cursor: pointer;
     background: rgb(37, 99, 235);
   }
   
-  .comment-form-button:disabled {
+  .commentform__button:disabled {
     opacity: 0.7;
     cursor: default;
   }
   
-  .comment-form-cancel-button {
+  .commentform-cancel__button {
     margin-left: 10px;
   }
   
@@ -77,23 +77,23 @@
     margin-bottom: 28px;
   }
   
-  .comment-image-container {
+  .comment__image {
     margin-right: 12px;
   }
   
-  .comment-image-container img {
+  .comment__image img {
     border-radius: 50px;
   }
   
-  .comment-right-part {
+  .comment__right {
     width: 100%;
   }
   
-  .comment-content {
+  .comment__content {
     display: flex;
   }
   
-  .comment-author {
+  .comment__author {
     margin-right: 8px;
     font-size: 20px;
     color: rgb(59, 130, 246);
@@ -102,7 +102,7 @@
     }
   }
   
-  .comment-text {
+  .comment__text {
     font-size: 18px;
     @media (max-width: 991px) {
         font-size: 17px;
@@ -115,7 +115,7 @@
     }
   }
   
-  .comment-actions {
+  .comment__actions {
     display: flex;
     font-size: 12px;
     color: rgb(51, 51, 51);
@@ -126,13 +126,13 @@
     }
   }
   
-  .comment-action {
+  .comment__action {
     margin-right: 8px;
+    &:hover {
+        text-decoration: underline;
+    }
   }
   
-  .comment-action:hover {
-    text-decoration: underline;
-  }
   
   .replies {
     margin-top: 20px;

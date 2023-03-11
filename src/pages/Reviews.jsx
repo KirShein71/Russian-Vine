@@ -44,7 +44,7 @@ function Reviews({currentUserId}) {
     });
   };
   const deleteComment = (commentId) => {
-    if (window.confirm("Are you sure you want to remove comment?")) {
+    if (window.confirm("Вы уверены, что хотите удалить сообщение?")) {
       deleteCommentApi().then(() => {
         const updatedBackendComments = backendComments.filter(
           (backendComment) => backendComment.id !== commentId
@@ -63,9 +63,9 @@ function Reviews({currentUserId}) {
   return (
     <div className="comments">
         <div className="container">
-            <h3 className="comments-title">Отзывы</h3>
+            <h3 className="comments__title">Отзывы</h3>
             <CommentForm submitLabel="Написать" handleSubmit={addComment} />
-            <div className="comments-container">
+            <div className="comments__container">
                 {rootComments.map((rootComment) => (
                 <Comment
                     key={rootComment.id}

@@ -16,17 +16,17 @@ function CommentForm({handleSubmit,
   return (
     <form className="commentform" onSubmit={onSubmit}>
       <textarea
-        className="comment-form-textarea"
+        className="commentform__textarea"
         value={text}
         onChange={(e) => setText(e.target.value)}
       />
-      <button className="comment-form-button" disabled={isTextareaDisabled}>
+      <button className="commentform__button" disabled={isTextareaDisabled}>
         {submitLabel}
       </button>
       {hasCancelButton && (
         <button
           type="button"
-          className="comment-form-button comment-form-cancel-button"
+          className="commentform__button commentform-cancel__button"
           onClick={handleCancel}
         >
           Удалить

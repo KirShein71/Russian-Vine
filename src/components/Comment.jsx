@@ -29,15 +29,15 @@ function Comment({comment,
   const createdAt = new Date(comment.createdAt).toLocaleDateString();
   return (
     <div key={comment.id} className="comment">
-      <div className="comment-image-container">
+      <div className="comment__image">
         <img src="./img/user-icon.png" alt="icon_user"/>
       </div>
-      <div className="comment-right-part">
-        <div className="comment-content">
-          <div className="comment-author">{comment.username}</div>
+      <div className="comment__right">
+        <div className="comment__content">
+          <div className="comment__author">{comment.username}</div>
           <div>{createdAt}</div>
         </div>
-        {!isEditing && <div className="comment-text">{comment.body}</div>}
+        {!isEditing && <div className="comment__text">{comment.body}</div>}
         {isEditing && (
           <CommentForm
             submitLabel="Редактировать"
@@ -49,10 +49,10 @@ function Comment({comment,
             }}
           />
         )}
-        <div className="comment-actions">
+        <div className="comment__actions">
           {canReply && (
             <div
-              className="comment-action"
+              className="comment__action"
               onClick={() =>
                 setActiveComment({ id: comment.id, type: "replying" })
               }
@@ -62,7 +62,7 @@ function Comment({comment,
           )}
           {canEdit && (
             <div
-              className="comment-action"
+              className="comment__action"
               onClick={() =>
                 setActiveComment({ id: comment.id, type: "editing" })
               }
@@ -72,7 +72,7 @@ function Comment({comment,
           )}
           {canDelete && (
             <div
-              className="comment-action"
+              className="comment__action"
               onClick={() => deleteComment(comment.id)}
             >
               Удалить
