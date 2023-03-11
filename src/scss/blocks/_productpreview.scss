@@ -35,6 +35,9 @@
         color: #cacaca;
         font-size: 35px;
         font-weight: 400;
+        @media (max-width: 768px){
+            font-size: 34px;
+        }
         @media (max-width: 575px) {
             font-size: 20px;
         }
@@ -51,6 +54,9 @@
         width: 900px;
         @media (max-width: 1024px) {
             width: 600px;
+        }
+        @media (max-width: 768px) {
+            width: 500px;
         }
         @media (max-width: 575px) {
             width: 250px;

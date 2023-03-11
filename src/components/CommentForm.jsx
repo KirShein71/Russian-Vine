@@ -29,7 +29,7 @@ function CommentForm({handleSubmit,
           className="comment-form-button comment-form-cancel-button"
           onClick={handleCancel}
         >
-          Cancel
+          Удалить
         </button>
       )}
     </form>

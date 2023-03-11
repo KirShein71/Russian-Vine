@@ -3,7 +3,6 @@ import PopularCard from "./PopularCard";
 import slider from "../slider.json"
 
 function Carousel({show}) {
-
     const [currentIndex, setCurrentIndex] = React.useState(0)
     const [length, setLength] = React.useState(slider.length)
     const [touchPosition, setTouchPosition] = React.useState(null)
@@ -64,5 +63,6 @@ function Carousel({show}) {
         </div>
     )
 }
+
 
 export default Carousel;

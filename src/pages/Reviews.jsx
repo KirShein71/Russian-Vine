@@ -64,7 +64,7 @@ function Reviews({currentUserId}) {
     <div className="comments">
         <div className="container">
             <h3 className="comments-title">Отзывы</h3>
-            <CommentForm submitLabel="Write" handleSubmit={addComment} />
+            <CommentForm submitLabel="Написать" handleSubmit={addComment} />
             <div className="comments-container">
                 {rootComments.map((rootComment) => (
                 <Comment

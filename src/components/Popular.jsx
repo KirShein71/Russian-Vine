@@ -6,6 +6,8 @@ import Carousel from "./Carousel";
 
 
 
+
+
 function Popular() {
     
 
@@ -14,11 +16,15 @@ function Popular() {
             <div className="container">
                 <h3 className="popular__title">Популярное</h3>
                 <div className="popular__content">
-                   <Carousel show={3} infiniteLoop={true}/>
+                   <Carousel show={3} />
                 </div>
-                <Link to="/catalog">
-                    <button className="popular__button">все вина</button>
-                </Link>
+                
+                    <button className="popular__button">
+                    <Link to="/catalog">
+                        <p>все вина</p>
+                    </Link>
+                    </button>
+                
             </div>
         </div>
     )

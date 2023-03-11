@@ -10,6 +10,7 @@ function Events({onClickButton}) {
     onClickButton = () => {
         setOpenModul(true)
     }
+   
 
   return (
     <div className='events'>
@@ -26,7 +27,7 @@ function Events({onClickButton}) {
                     <div onClick={()=>setOpenModul(false)} className="closed">
                         <img src="img/closed.png" alt="closed"/>
                     </div>
-                    <Form/>
+                    <Form />
                 </div>
                 )}
         </div>
