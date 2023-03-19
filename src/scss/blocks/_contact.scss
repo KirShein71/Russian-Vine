@@ -4,7 +4,7 @@
     @media (max-width: 1200px) {
         display: flex;
     }
-    @media (max-width: 420px) {
+    @media (max-width: 450px) {
         text-align: center;
     }
     &__title {
@@ -13,13 +13,13 @@
         padding-bottom: 25px;
         text-transform: uppercase;
         color: rgb(7, 7, 7);
-        @media (max-width: 420px) {
+        @media (max-width: 450px) {
             font-size: 20px;
             padding-left: 15px;
         }
     }
     &__map {
-        @media (max-width: 420px) {
+        @media (max-width: 450px) {
             margin-left: 35px;
         }
         @media (max-width: 320px) {
@@ -28,7 +28,7 @@
     }
     &__bottom {
         margin-top: 80px;
-        @media (max-width: 420px) {
+        @media (max-width: 450px) {
             margin-top: 30px;
         }
     }
@@ -38,7 +38,7 @@
         font-weight: 600;
         color: rgb(7, 7, 7);
         padding: 10px 0 5px 0;
-        @media (max-width: 420px) {
+        @media (max-width: 450px) {
             font-size: 18px;
             padding-left: 15px;
         }
@@ -46,18 +46,18 @@
     &__address {
         font-size: 17px;
         font-weight: 400;
-        @media (max-width: 420px) {
+        @media (max-width: 450px) {
             font-size: 15px;
             padding-left: 17px;
         }
     }
     &__telephone {
-        @media (max-width: 420px) {
+        @media (max-width: 450px) {
            padding-left: 17px;
         }
     }
     &__telegramm {
-        @media (max-width: 420px) {
+        @media (max-width: 450px) {
             padding-left: 17px;
         }
     }
@@ -68,7 +68,7 @@
         @media (max-width: 480px) {
             width: 400px;
         }
-        @media (max-width: 420px) {
+        @media (max-width: 450px) {
             width: 320px;
             height: 240px;
         }

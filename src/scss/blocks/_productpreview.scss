@@ -8,7 +8,7 @@
         @media (max-width: 991px) {
             justify-content: center;
         }
-        @media (max-width: 420px) {
+        @media (max-width: 450px) {
             display: contents;
         }
     }
@@ -18,7 +18,7 @@
             @media (max-width: 991px) {
                 width: 75%;
             }
-            @media (max-width: 420px) {
+            @media (max-width: 450px) {
                 display: block;
                 margin: 0 auto;
                 width: 30%;
@@ -66,7 +66,7 @@
             width: 150px;
             font-size: 12px;
         }
-        @media (max-width: 420px) {
+        @media (max-width: 450px) {
             width: 200px;
         }
     
